@@ -1,0 +1,33 @@
+body {
+  background: url(bg.png);
+}
+
+.social-links {
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-links a:focus, .social-links a:hover {
+  text-decoration: none;
+}
+
+.copyright {
+  font-size: 90%;
+}
+
+.indent {
+  text-indent: 1rem;
+}
+
+/* greenish */
+.theme-base-nf .sidebar,
+.theme-base-nf .sidebar-toggle:active,
+.theme-base-nf #sidebar-checkbox:checked ~ .sidebar-toggle {
+  background-color: #5d774c;
+}
+.theme-base-nf .container a,
+.theme-base-nf .sidebar-toggle,
+.theme-base-nf .related-posts li a:hover {
+  color: #5d774c;
+}

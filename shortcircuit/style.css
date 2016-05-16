@@ -1,0 +1,56 @@
+body {
+	background: url(bg.png) repeat #c2c2c2;
+	margin: 0px;
+	width: 100%;
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-size: 16px;
+}
+
+#main {
+	position: relative;
+	top: 40px;
+	z-index: 5;
+	width: 700px;
+	height: 480px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-size: 14px;
+}
+
+#bottom {
+	position: relative;
+	width: 100%;
+	background: url('bottom-bg-70.png') repeat-x green;
+	z-index: 4;
+	bottom: 0px;
+	border-top: 1.5px solid;
+}
+
+#footer-content {
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+	margin: 8px 0px;
+	font-size: 13px;
+	width: 100%;
+	color: white;
+}
+
+#iPhone {
+	float: left;
+}
+
+#footer-content a {
+	color: white;
+	text-decoration: underline;
+}
+
+#footer-content a:hover {
+	color: white;
+	text-decoration: none;
+}
+
+#footer-content a:visited {
+	color: white;
+}

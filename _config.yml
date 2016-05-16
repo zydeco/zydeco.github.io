@@ -1,0 +1,68 @@
+# Permalinks
+permalink:           pretty
+
+# Setup
+title:               namedfork.net
+tagline:             composting for an icon garden
+description:         namedfork.net
+url:                 http://namedfork.net
+baseurl:             ''
+paginate:            5
+gems:                [jekyll-paginate]
+paginate_path:       "page:num"
+
+# About/contact
+author:
+  name:              Jesús A. Álvarez
+  url:               https://twitter.com/maczydeco
+  email:             zydeco@namedfork.net
+
+# Custom vars
+
+social_links:
+  - url: https://twitter.com/maczydeco
+    icon: twitter
+    title: Twitter
+  - url: https://github.com/zydeco
+    icon: github
+    title: GitHub
+  - url: https://instagr.am/maczydeco
+    icon: instagram
+    title: Instagram
+  - url: https://youtu.be/maczydeco
+    icon: youtube
+    title: YouTube
+
+sections:
+  - id: ios
+    title: iOS Software
+    icon: screen-smartphone
+    links:
+      - title: Font Manager
+        url: /fontmanager
+      - title: Short Circuit
+        url: /shortcircuit
+  - id: mac
+    title: Mac Software
+    icon: mouse
+  - id: pebble
+    title: Pebble Software
+    icon: clock
+    links:
+      - title: Roman Digital
+        url: https://apps.getpebble.com/applications/52ec23e2e9b4c3b2be000026
+      - title: Newton
+        url: https://apps.getpebble.com/applications/52ec21cae9b4c3834f000017
+  - id: misc-sw
+    title: Misc Software
+    icon: briefcase
+    links:
+      - title: libmfs
+        url: https://github.com/zydeco/libmfs
+      - title: libres
+        url: https://github.com/zydeco/libres
+      - title: NBTKit
+        url: https://github.com/zydeco/nbtkit
+      - title: openDesktop themes
+        url: 'https://opendesktop.org/usermanager/search.php?username=zydeco&action=contents'
+  

@@ -1,0 +1,63 @@
+<!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
+     styles, `#sidebar-checkbox` for behavior. -->
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+<!-- Toggleable sidebar -->
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-item">
+    <p>{{ site.description }}</p>
+  </div>
+
+  <nav class="sidebar-nav">
+    <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/">
+      <i class="icon-home">&nbsp;</i>Home
+    </a>
+
+    {% comment %}
+      The code below dynamically generates a sidebar nav of pages with
+      `layout: page` in the front-matter. See readme for usage.
+    {% endcomment %}
+
+    {% assign pages_list = site.pages | sort:"url" %}
+    {% for node in pages_list %}
+      {% if node.title != null and node.layout == "page" and node.section == null %}
+        <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">
+          <i class="icon-{{ node.icon }}">&nbsp;</i>{{ node.short_title | default: node.title }}
+        </a>
+      {% endif %}
+    {% endfor %}
+    
+    {% assign sections = site.sections %}
+    {% for section in sections %}
+      <div class="sidebar-nav-item">
+        <i class="icon-{{ section.icon }}">&nbsp;</i>{{ section.title }}:
+      </div>
+      
+      {% assign pages_list = site.pages | sort:"url" %}
+      {% for node in pages_list %}
+        {% if node.title != null and node.layout == "page" and node.section == section.id %}
+        <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %} indent" href="{{ node.url }}">
+          {{ node.short_title | default: node.title }}
+        </a>
+        {% endif %}
+      {% endfor %}
+      
+      {% for link in section.links %}
+      <a class="sidebar-nav-item indent" href="{{ link.url }}">
+        {{ link.title }}
+      </a>
+      {% endfor %}
+    {% endfor %}
+  </nav>
+  
+  <div class="sidebar-item">
+    <p class="social-links">
+      {% for link in site.social_links %}
+        <a class="icon-social-{{ link.icon}}" title="{{ link.title }}" href="{{ link.url }}"></a>
+      {% endfor %}
+    </p>
+    <p class="copyright">
+      &copy; 2002-{{ site.time | date: '%Y' }} Jesús A. Álvarez.<br/>All rights reserved.
+    </p>
+  </div>
+</div>

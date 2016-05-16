@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+	"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<title>ShortCircuit for iPhone, iPod Touch and iPad</title>
+	<link rel="stylesheet" href="style.css" />
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script type="text/javascript">
+	    function resize() {
+            var bodyheight = $(window).height();
+            $("#bottom").height(Math.max(bodyheight-440-40, 120));
+        }
+        
+	    $(document).ready(function() {resize();});
+        $(window).resize(function() {resize();});
+	</script>
+</head>
+
+<body>
+    <div id="main">
+        <img src="iPhone.png" width="227" height="480" id="iPhone" />
+        <img src="title.png" width="377" height="70" style="margin-top:20px"/>
+        <br/><br/>
+        <span style="color:red;">★</span> Remove all tiles before the time runs out<br/>
+        <span style="color:red;">★</span> Connect matching tiles with a circuit to remove them<br/>
+        <img src="circuits.png" width="225" height="160" /><br/>
+        <span style="color:red;">★</span> Available for iPhone, iPod Touch and iPad<br/>
+        <br/>
+        <a href="https://itunes.apple.com/us/app/shortcircuit-a-puzzle-game/id693320541?ls=1&mt=8"><img src="download.png" width="135" height="40" /></a>
+    </div>
+    <div id="bottom">
+        <div id="footer-content">
+            ©2013 <a href="http://twitter.com/maczydeco">Jesús A. Álvarez</a> - <a href="http://namedfork.net">namedfork.net</a> - based on Short Circuit for Mac by Carl Limsico
+        </div>
+    </div>
+</body>
+</html>
