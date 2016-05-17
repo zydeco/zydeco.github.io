@@ -5,7 +5,8 @@ permalink:           pretty
 title:               namedfork.net
 tagline:             composting for an icon garden
 description:         namedfork.net
-url:                 http://namedfork.net
+url:                 https://namedfork.net
+enforce_ssl:         namedfork.net
 baseurl:             ''
 paginate:            5
 gems:                [jekyll-paginate]
