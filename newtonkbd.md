@@ -24,5 +24,5 @@ There is a
 
 ## Download
 
-* <a class="icon-social-github" href="https://github.com/zydeco/newtonkbd-iphone"> Source Code on GitHub</a>
-* <a class="icon-present" href="https://github.com/zydeco/newtonkbd-iphone/releases/download/v1.0.1/newtonkbd.deb"> DEB package binary (78.4 KB)</a>
+* {% include link-icon.html icon="social-github" url="https://github.com/zydeco/newtonkbd-iphone" name="Source Code on GitHub" %}
+* {% include link-icon.html icon="present" url="https://github.com/zydeco/newtonkbd-iphone/releases/download/v1.0.1/newtonkbd.deb" name="DEB package binary (78.4 KB)" %}

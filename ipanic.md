@@ -12,7 +12,7 @@ easily with Command-Q.
 
 ## Get iPanic
 
-* <a class="icon-present" href="https://github.com/zydeco/ipanic/releases/download/v1.1.3/iPanic.1.1.3.zip"> iPanic 1.1.3 (252 KB)</a>
-* <a class="icon-social-github" href="https://github.com/zydeco/ipanic"> Source Code on GitHub</a>
-* <a class="icon-bag" href="https://www.cafepress.com/ipanic"> Buy a T-Shirt</a>
+* {% include link-icon.html icon="present" url="https://github.com/zydeco/ipanic/releases/download/v1.1.3/iPanic.1.1.3.zip" name="iPanic 1.1.3 (252 KB)" %}
+* {% include link-icon.html icon="social-github" url="https://github.com/zydeco/ipanic" name="Source Code on GitHub" %}
+* {% include link-icon.html icon="bag" url="https://www.cafepress.com/ipanic" name="Buy a T-Shirt" %}
 

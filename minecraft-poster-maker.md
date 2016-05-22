@@ -34,5 +34,5 @@ Convert images into Minecraft maps to use as posters.
 
 ## Download
 
-* <a class="icon-present" href="https://github.com/zydeco/Minecraft-Poster-Maker/releases/download/v1.0.1/Minecraft.Poster.Maker.1.0.1.zip"> Minecraft Poster Maker 1.0.1 (222 KB)</a>
-* <a class="icon-social-github" href="https://github.com/zydeco/Minecraft-Poster-Maker"> Source Code on GitHub</a>
+* {% include link-icon.html icon="present" url="https://github.com/zydeco/Minecraft-Poster-Maker/releases/download/v1.0.1/Minecraft.Poster.Maker.1.0.1.zip" name="Minecraft Poster Maker 1.0.1 (222 KB)" %}
+* {% include link-icon.html icon="social-github" url="https://github.com/zydeco/Minecraft-Poster-Maker" name="Source Code on GitHub" %}

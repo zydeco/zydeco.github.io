@@ -33,5 +33,5 @@ stored in a system file.
 
 ## Get BootXChanger
 
-* <a class="icon-present" href="https://github.com/zydeco/bootxchanger/releases/download/v2.0/bootxchanger_2.0.dmg"> BootXChanger 2.0 (678 KB)</a>
-* <a class="icon-social-github" href="https://github.com/zydeco/bootxchanger"> Source Code on GitHub</a>
+* {% include link-icon.html icon="present" url="https://github.com/zydeco/bootxchanger/releases/download/v2.0/bootxchanger_2.0.dmg" name="BootXChanger 2.0 (678 KB)" %}
+* {% include link-icon.html icon="social-github" url="https://github.com/zydeco/bootxchanger" name="Source Code on GitHub" %}

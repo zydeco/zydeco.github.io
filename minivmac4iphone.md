@@ -27,7 +27,7 @@ to iOS (2.2 to 5.x). This video shows some features of an early version:
 
 ## Download
 
-* <a class="icon-social-github" href="https://github.com/zydeco/minivmac4iphone"> Source Code on GitHub</a>
+* {% include link-icon.html icon="social-github" url="https://github.com/zydeco/minivmac4iphone" name="Source Code on GitHub" %}
 
 ## Usage
 
