@@ -9,7 +9,7 @@ permalink: iphone/minivmac
 This is my port of the [Mini vMac](http://www.gryphel.com/c/minivmac/) emulator
 to iOS (2.2 to 5.x). This video shows some features of an early version:
 
-<iframe width="420" height="315" src="https://www.youtube.com/embed/SyS8lOBBk8I" frameborder="0" allowfullscreen></iframe>
+{% include youtube.html id="SyS8lOBBk8I" %}
 
 ## Features
 

@@ -9,7 +9,7 @@ permalink: iphone/newtonkbd
 This app will allow you to use an iPhone or iPod Touch as a keyboard, to input text on a Newton
 running Newton OS 2.0 or later.
 
-<iframe width="420" height="315" src="https://www.youtube.com/embed/iN44Eq4Thgo" frameborder="0" allowfullscreen></iframe>
+{% include youtube.html id="iN44Eq4Thgo" %}
 
 It contains software from the [Newton Desktop Connection Library](http://sourceforge.net/projects/newton-dcl/).
 
