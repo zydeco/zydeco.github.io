@@ -9,7 +9,7 @@ permalink: iphone/minivmac
 This is my port of the [Mini vMac](http://www.gryphel.com/c/minivmac/) emulator
 to iOS 9. You can see it in action on this video:
 
-{% include youtube.html id="w9U42hqhdzA" %}
+{% include youtube.html id="w9U42hqhdzA" width="720" %}
 
 ## Features
 
