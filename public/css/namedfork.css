@@ -32,6 +32,10 @@ body {
   color: #5d774c;
 }
 
+blockquote {
+  background-color: #f9f9f9;
+}
+
 iframe.video {
   width: 100%;
   height: 100%;

@@ -2,9 +2,11 @@
 layout: page
 title: Mini vMac for iPhone
 short_title: Mini vMac
-section: ios
-permalink: iphone/minivmac
+section: hidden
 ---
+
+> **NOTE:** This page is about an old port of Mini vMac to iOS, kept for historical
+> purposes. To view the most recent version, go [here](/iphone/minivmac).
 
 This is my port of the [Mini vMac](http://www.gryphel.com/c/minivmac/) emulator
 to iOS (2.2 to 5.x). This video shows some features of an early version:
