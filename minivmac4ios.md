@@ -3,7 +3,7 @@ layout: page
 title: Mini vMac for iOS
 short_title: Mini vMac
 section: ios
-permalink: iphone/minivmac
+permalink: iphone/minivmac/
 ---
 
 This is my port of the [Mini vMac](http://www.gryphel.com/c/minivmac/) emulator

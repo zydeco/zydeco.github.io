@@ -3,7 +3,7 @@ layout: page
 title: Newton Keyboard for iPhone
 short_title: Newton Keyboard
 section: ios
-permalink: iphone/newtonkbd
+permalink: iphone/newtonkbd/
 ---
 
 This app will allow you to use an iPhone or iPod Touch as a keyboard, to input text on a Newton
