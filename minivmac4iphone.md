@@ -9,7 +9,7 @@ section: hidden
 > purposes. To view the most recent version, go [here](/iphone/minivmac).
 
 This is my port of the [Mini vMac](http://www.gryphel.com/c/minivmac/) emulator
-to iOS (2.2 to 5.x). This video shows some features of an early version:
+to iOS (2.2 to 6). This video shows some features of an early version:
 
 {% include youtube.html id="SyS8lOBBk8I" %}
 
@@ -23,7 +23,7 @@ to iOS (2.2 to 5.x). This video shows some features of an early version:
 ## Requirements
 
 * Jailbroken iPhone or iPod Touch
-* iPhone OS 2.2 to 5.x
+* iPhone OS 2.2 to 6
 * [Mac Plus ROM image](http://www.gryphel.com/c/minivmac/start.html)
 * Disk images with Mac software
 

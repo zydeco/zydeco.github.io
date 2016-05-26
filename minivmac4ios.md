@@ -23,7 +23,7 @@ to iOS 9. You can see it in action on this video:
 
 ## Requirements
 
-* iOS 9 or later
+* iOS 7 or later
 * Mac Plus ROM image
 * Disk images with Mac software
 * A Mac with Xcode 7 (required to build)
@@ -47,6 +47,7 @@ AirDrop, or via iTunes File Sharing.
     appear. Icons are automatically generated based on the contents of the disk.
 * Tap an hold on a file to delete, rename or share
 * Tap the Edit button to show all files, and the Create Disk Image option
+* Disk image creation and renaming are only available on iOS 8 or later
 
 ![Create New Disk](/images/minivmac4ios/newdisk.png)
 
