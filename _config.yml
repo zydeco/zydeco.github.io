@@ -9,7 +9,7 @@ url:                 https://namedfork.net
 enforce_ssl:         namedfork.net
 baseurl:             ''
 paginate:            5
-gems:                [jekyll-paginate]
+gems:                [jekyll-paginate, jekyll-redirect-from]
 paginate_path:       "page:num"
 
 # About/contact
