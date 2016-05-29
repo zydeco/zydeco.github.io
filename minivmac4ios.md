@@ -14,9 +14,9 @@ to iOS 9. You can see it in action on this video:
 
 ## Features
 
-* Emulates 4MB Mac Plus
+* Emulates Mac Plus, Mac II or Mac 128K
 * Full simulated keyboard (including all Mac keys)
-* Full sound output
+* Full sound output (except on Mac II)
 * Uses external keyboard if available
 * Regulable emulation speed (up to 8x)
 * Easy(ish) to import/export disk images
@@ -24,7 +24,7 @@ to iOS 9. You can see it in action on this video:
 ## Requirements
 
 * iOS 7 or later
-* Mac Plus ROM image
+* ROM image from Mac Plus, Mac II and/or Mac 128K
 * Disk images with Mac software
 * A Mac with Xcode 7 (required to build)
 
@@ -92,6 +92,7 @@ the following:
 * **Speed:** make the emulated machine faster than a Mac Plus
 * **Mouse Type:** switch between touchscreen and trackpad mode
 * **Keyboard Layout:** change the layout of the emulated keyboard
+* **Emulated Machine:** for changes to take effect, close and relaunch Mini vMac
 
 ### Credits
 
@@ -101,6 +102,13 @@ the following:
 * [hfsutils](http://www.mars.org/home/rob/proj/hfs/) ©1996-2000 Robert Leslie
 
 ## Version History
+
+#### 2.1 - 29<sup>th</sup> May 2016
+
+* Updated Mini vMac core to 3.4 alpha snapshot from 26th May
+* Added Mac II and Mac 128K emulation
+* Support jailbroken devices
+* Bug fixes
 
 #### 2.0 - 23<sup>rd</sup> May 2016
 
