@@ -16,9 +16,9 @@ to iOS 9. You can see it in action on this video:
 
 * Emulates Mac Plus, Mac II or Mac 128K
 * Full simulated keyboard (including all Mac keys)
-* Full sound output (except on Mac II)
+* Full sound output
 * Uses external keyboard if available
-* Regulable emulation speed (up to 8x)
+* Regulable emulation speed
 * Easy(ish) to import/export disk images
 
 ## Requirements
@@ -26,7 +26,7 @@ to iOS 9. You can see it in action on this video:
 * iOS 7 or later
 * ROM image from Mac Plus, Mac II and/or Mac 128K
 * Disk images with Mac software
-* A Mac with Xcode 7 (required to build)
+* Xcode 7 required for compiling
 
 ## Download
 
@@ -103,9 +103,25 @@ the following:
 
 ## Version History
 
+#### 2.2 - 28<sup>th</sup> June 2016
+
+* Updated core to 3.4.1 beta
+* Enabled sound on Mac II
+* Added 640×480 variant of Mac II
+* Group machines with same name under settings
+
+#### 2.1.1 - 6<sup>th</sup> June 2016
+
+ * Add more speed control options
+ * Support Mini vMac Import/Export extensions
+ * Better support for iOS 7 and 8
+ * Pull to refresh disk list
+ * Recognise files with `image` extension as disk images
+ * Less crashes and other fixes
+
 #### 2.1 - 29<sup>th</sup> May 2016
 
-* Updated Mini vMac core to 3.4 alpha snapshot from 26th May
+* Updated Mini vMac core to 3.4 alpha snapshot from 26<sup>th</sup> May
 * Added Mac II and Mac 128K emulation
 * Support jailbroken devices
 * Bug fixes
