@@ -26,7 +26,7 @@ to iOS 9. You can see it in action on this video:
 * iOS 7 or later
 * ROM image from Mac Plus, Mac II and/or Mac 128K
 * Disk images with Mac software
-* Xcode 7 required for compiling
+* Xcode 7 or 8 required for building
 
 ## Download
 
@@ -69,7 +69,7 @@ Swipe up with two fingers to show the keyboard, and down to hide it.
 ![Keyboard](/images/minivmac4ios/keyboard.png)
 
 The emulated keyboard features all the keys on an Apple Extended keyboard
-(except the Power key). The Command, Option , Control and Shift keys are
+(except the Power key). The Command, Option, Control and Shift keys are
 sticky, to make keyboard shortcuts easier to type. You can change the
 appearance of the emulated keyboard in the settings.
 
