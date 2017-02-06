@@ -17,7 +17,7 @@ to iOS 9. You can see it in action on this video:
 * Emulates Mac Plus, Mac II or Mac 128K
 * Full simulated keyboard (including all Mac keys)
 * Full sound output
-* Uses external keyboard if available
+* Uses external keyboard and mouse if available
 * Regulable emulation speed
 * Easy(ish) to import/export disk images
 
@@ -78,9 +78,13 @@ shortcuts may interfere with iOS.
 
 ### Mouse
 
-You can choose to use the screen as a touchscreen, where tapping on the screen
-acts a mouse click, or as a trackpad. In trackpad mode, dragging is done by
-tapping twice fast and holding it down.
+You can choose to use the screen as a touchscreen, where tapping on the screen acts a mouse
+click, or as a trackpad. In trackpad mode, dragging is done by tapping twice fast and holding
+it down, or by holding down one finger and dragging with the other. On devices supporting 3D
+Touch, you can press harder to initiate a drag.
+
+On jailbroken devices with [BTC Mouse & Trackpad](http://www.ringwald.ch/cydia/mouse/), the
+Bluetooth pointing device will work as the emulated Mac's mouse.
 
 ### Settings
 
@@ -102,6 +106,25 @@ the following:
 * [hfsutils](http://www.mars.org/home/rob/proj/hfs/) © 1996–2000 Robert Leslie
 
 ## Version History
+
+#### 2.2.3 - 4<sup>th</sup> December 2016
+
+* Don't play sound through internal speaker when muted
+* Fixed bug finding document folder on some versions iOS when jailbroken
+* Support bluetooth mice and trackpad on jailbroken devices with [BTC Mouse & Trackpad](http://www.ringwald.ch/cydia/mouse/)
+
+#### 2.2.2 - 19<sup>th</sup> November 2016
+
+* Enhanced trackpad mode:
+  * Added multi-touch dragging
+  * Support force touch where available
+* Fixed app icon not showing up on jailbroken devices
+
+#### 2.2.1 - 15<sup>th</sup> July 2016
+
+* Show button to restart after shutdown
+* Load disk icons in background
+* Fixed crash on Mac II with touchscreen mode
 
 #### 2.2 - 28<sup>th</sup> June 2016
 
