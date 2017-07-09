@@ -1,0 +1,3 @@
+[submodule "spacestationplanner"]
+	path = spacestationplanner
+	url = https://github.com/zydeco/starbound-spacestationplanner.git
