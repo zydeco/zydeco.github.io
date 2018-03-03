@@ -13,7 +13,7 @@ Convert images into Minecraft maps to use as posters.
 ## Requirements
 
 * Mac OS X 10.8 or newer
-* Minecraft 1.7.2 or newer (tested up to 1.9.4)
+* Minecraft 1.7.2 or newer
 
 ## Features
 
@@ -22,6 +22,7 @@ Convert images into Minecraft maps to use as posters.
 * Optionally adds maps to a user's inventory
 * Adjust conversion speed, dithering and quality in Preferences
 * Choose the Map ID, or have it chosen automatically
+* Export map as schematic (use with WorldEdit or Schematica)
 
 ## Usage
 
@@ -34,5 +35,5 @@ Convert images into Minecraft maps to use as posters.
 
 ## Download
 
-* {% include link-icon.html icon="present" url="https://github.com/zydeco/Minecraft-Poster-Maker/releases/download/v1.0.1/Minecraft.Poster.Maker.1.0.1.zip" name="Minecraft Poster Maker 1.0.1 (222 KB)" %}
+* {% include link-icon.html icon="present" url="https://github.com/zydeco/Minecraft-Poster-Maker/releases/download/v1.1/Minecraft.Poster.Maker.1.1.zip" name="Minecraft Poster Maker 1.1 (268 KB)" %}
 * {% include link-icon.html icon="social-github" url="https://github.com/zydeco/Minecraft-Poster-Maker" name="Source Code on GitHub" %}
