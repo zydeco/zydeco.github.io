@@ -49,14 +49,6 @@ sections:
   - id: mac
     title: Mac Software
     icon: mouse
-  - id: pebble
-    title: Pebble Software
-    icon: clock
-    links:
-      - title: Roman Digital
-        url: https://apps.getpebble.com/applications/52ec23e2e9b4c3b2be000026
-      - title: Newton
-        url: https://apps.getpebble.com/applications/52ec21cae9b4c3834f000017
   - id: misc-sw
     title: Misc Software
     icon: briefcase
