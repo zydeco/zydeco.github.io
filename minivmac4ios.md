@@ -107,6 +107,17 @@ the following:
 
 ## Version History
 
+#### 2.3 - 28<sup>th</sup> April 2018
+
+* Support iOS 11 Files
+* Added French keyboard layout
+* Fix edge insets for iPhone X
+* Load user-supplied keyboard layouts from `Documents/Keyboard Layouts`
+
+#### 2.2.4 - 1<sup>st</sup> October 2017
+
+* Updated core to Mini vMac 3.5.8
+
 #### 2.2.3 - 4<sup>th</sup> December 2016
 
 * Don't play sound through internal speaker when muted
