@@ -53,12 +53,9 @@ sections:
     title: Misc Software
     icon: briefcase
     links:
-      - title: libmfs
-        url: https://github.com/zydeco/libmfs
-      - title: libres
-        url: https://github.com/zydeco/libres
-      - title: NBTKit
-        url: https://github.com/zydeco/nbtkit
+      - title: see GitHub
+        url: https://github.com/zydeco
       - title: openDesktop themes
-        url: 'https://opendesktop.org/usermanager/search.php?username=zydeco&action=contents'
+        url: 'https://www.opendesktop.org/u/zydeco'
+
   
