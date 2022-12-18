@@ -6,34 +6,12 @@
 <head>
 	<title>Font Manager for iPhone, iPod Touch and iPad</title>
 	<link rel="stylesheet" href="style.css" />
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-	<script type="text/javascript">
-	    function resize() {
-            var bodyheight = $(window).height();
-            $("#bottom").height(Math.max(bodyheight-440-40, 120));
-        }
-        
-         function pixelRatio(){
-            return !!window.devicePixelRatio ? window.devicePixelRatio : 1;
-          };
-        
-	    $(document).ready(function() {
-            resize();
-            if (pixelRatio() > 1) {
-                // retina images
-                $('#iPhone').attr('src', 'iPhone@2x.png');
-                $('#title').attr('src', 'title@2x.png');
-                $('#download').attr('src', 'download.svg');
-            }
-        });
-        $(window).resize(function() {resize();});
-	</script>
 </head>
 
 <body>
     <div id="main">
-        <img src="iPhone.png" width="227" height="480" id="iPhone" />
-        <img src="title.png" width="392" height="60" style="margin-top:20px" id="title" />
+        <img src="iPhone@2x.png" width="227" height="480" id="iPhone" />
+        <img src="title@2x.png" width="392" height="60" style="margin-top:20px" id="title" />
         <br/><br/>
         <ul style="margin-left:260px;text-align:left;list-style-type:square;">
             <li>View all the fonts on your device</li>
@@ -43,7 +21,7 @@
             <li>Available for iPhone, iPod Touch and iPad</li>
         </ul>
         <br/>
-        <a href="https://itunes.apple.com/us/app/font-manager/id789211165?ls=1&mt=8"><img src="download.png" width="135" height="40" id="download" /></a>
+        <a href="https://itunes.apple.com/us/app/font-manager/id789211165?ls=1&mt=8"><img src="download.svg" width="135" height="40" id="download" /></a>
     </div>
     <div id="bottom">
         <div id="footer-content">
