@@ -101,11 +101,44 @@ the following:
 ### Credits
 
 * Mini vMac for iOS by [Jesús A. Álvarez](https://github.com/zydeco)
-* [Mini vMac](http://gryphel.com/c/minivmac/) © 2001–2018 Paul C. Pratt
+* [Mini vMac](http://gryphel.com/c/minivmac/) © 2001–2021 Paul C. Pratt
 * [vMac](http://vmac.org/) © 1996–1999 Philip Cummins & al.
 * [hfsutils](http://www.mars.org/home/rob/proj/hfs/) © 1996–2000 Robert Leslie
 
 ## Version History
+
+#### 2.5 - 26<sup>th<>/sup> May 2022
+
+* Update to Mini vMac 37.03 beta
+* Fixed crash when deleting disk images on iPad
+* Adds recently used disks to quick actions menu
+* Removed custom presentation modes for disk and settings screens
+* Fixed "The developer of this app needs to update it to work with this version of iOS" error when installing IPA on iOS 15
+
+#### 2.4 - 1<sup>st</sup> October 2020
+
+* Update to Mini vMac 37 Alpha snapshot 200926 (can run Winter Games!)
+* Change emulated machine without restarting the app
+* Use contextual menu on iOS 13 and later
+* Remember selected speed value more often
+* Fix machine icons benig miscached on iOS 14
+* Fix screen not returning to normal size after dismissing sheet by dragging on iOS 13
+* Set minimum target to iOS 9
+* Other minor UI adjustments
+
+#### 2.3.2 - 23<sup>rd</sup> June 2020
+
+* Can now be sidelodaed with AltStore (download the ipa file)
+* Support split screen multitasking on iPad OS
+* Added overlay showing gestures
+* Fixed handling of hardware mouse/trackpad when using trackpad mode
+* Minor adjustments to UI transitions
+
+#### 2.3.1 - 10<sup>th</sup> May 2020
+
+* Updated core to Mini vMac 36.04
+* Support mouse/trackpad on iPad OS 13
+* Support iOS 13 dark mode
 
 #### 2.3 - 28<sup>th</sup> April 2018
 
