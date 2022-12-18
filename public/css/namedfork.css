@@ -47,3 +47,11 @@ iframe.video {
   right: 0;
   bottom: 0;
 }
+
+.icon-social-mastodon::before {
+  color: white;
+  content: url(mastodon.svg);
+  width: 18px;
+  height: 27px;
+  display: block;
+}

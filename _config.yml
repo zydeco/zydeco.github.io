@@ -24,9 +24,9 @@ author:
 # Custom vars
 
 social_links:
-  - url: https://twitter.com/maczydeco
-    icon: twitter
-    title: Twitter
+  - url: "https://mastodon.social/@maczydeco"
+    icon: mastodon
+    title: Mastodon
   - url: https://github.com/zydeco
     icon: github
     title: GitHub
