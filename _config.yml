@@ -42,8 +42,6 @@ sections:
     title: iOS Software
     icon: screen-smartphone
     links:
-      - title: Font Manager
-        url: /fontmanager
       - title: Short Circuit
         url: /shortcircuit
   - id: mac
