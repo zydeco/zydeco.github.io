@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='utf-8'>
+  <meta name='viewport' content='width=440'>
+
+  <title>Cheers!</title>
+  <style type='text/css'>
+    body {
+      width: 440px;
+      margin: 2em auto auto auto;
+    }
+    
+    .ingredient {
+      background-size: contain;
+      background-repeat: no-repeat;
+      height: 92px;
+    }
+
+    .ingredient.r {
+      width: 84px;
+      content: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPwAAAEUBAMAAAD95UYPAAAAHlBMVEUAAACc0NzW6e3////v9vbnmJ3lFxuvHyLibG3O6/iDBw5rAAAAAXRSTlMAQObYZgAAAQdJREFUeAFiwASCYKBEVQAxE9DuHFhKDERhFK4htbwW0sK0kBbSwmsh3S6zMPxwGbhZ32ngO2n14fF4PB7/Nzs36sbj8Xg8PuFzts/nRB8ej8fj8WN2zb78tdE9+5/15PF4PB6Px+PxePxY+g0ej8fj8UlWsDF7P4/H4/H4AhkwHo/H43vyOZFAvTqMx+Px+D58feKO8Hg8Ht+Zz4mEE0syYTwej8f34bNjaUQrk2TCeDwej+/D11eeqE7i8Xg8vjUfrRM7JB6Px+PxeDwej8fj8Xg8Ho/H4/F4PB6Px+PxeDwej8fj8Xg8/oie6IjweDwe/y4+sXo5gcfj8fjW/HZ4PB6Pb8N/AKYLz31U1947AAAAAElFTkSuQmCC');
+    }
+
+    .ingredient.g {
+      width: 68px;
+      content: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMwAAAEUBAMAAACVFsQ3AAAAHlBMVEUAAACc0NzW6e3v9vb///+m1qBqsixCfhuNvzjO6/j8tCtUAAAAAXRSTlMAQObYZgAAAPJJREFUeAHt2YFlhEEQx9FrYVtIC9dCWkgL10JauBau2zCBP2uJDLv38X5gMDyAYW7ZqD7ajeoW7WcwGAxmxu7RZ3VfNAMYDAZzmllgwfSBPoPBYDAYDAaD+aoe1S/ziL6rZ4XBYDAYDAaDwWAwGEwHWDFrDIPBYPYzXSCZNYbBYDDnmb8AuYnBYDBXZzIMBoPBYDAYzE4mZwwGg7k6k61hDAaDOc90sBaAwWAwG5kZ679UMRgM5hwzYdEz6wEYDKYRpoFFr2pUDQDTCoPB9EumD2AwGAwGg8FgXJ0YDAaTwGtVkBgMBvPOzPhXGAwGc5T5ATN0ipiQ+PXCAAAAAElFTkSuQmCC');
+    }
+
+    .ingredient.b {
+      width: 76px;
+      content: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOQAAAEUBAMAAADJnIcTAAAAG1BMVEUAAACc0NzW6e3v9vb///+Pj8dGU6BqdK7O6/gSfabjAAAAAXRSTlMAQObYZgAAAMFJREFUeAHt1IEFA0EQhtG0sC2khWshLWwL18K1cGWHOVjGjc0mQN4HhsED/senSZIkSZIkSZIkSZIkSZIkSZIktej501qERCLHkMgtekXbUkgksg6JRCKRSCQSiUQikUgkEons0R5d5L7UESGRdyGRyPGeqUdIJBKJ/J6svzWJRCKRyFzNI5FIJHKN7Dcd0fysI5FIJDJjrWyEaxKJRCKRVxk7UxkeyyQSiUQiW+osaykkEjmGRM4z8zwSiUT+MfkGRqyiykLBjtAAAAAASUVORK5CYII=');
+    }
+
+    .ingredient.p {
+      width: 84px;
+      content: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPwAAAEUBAMAAAD95UYPAAAAHlBMVEUAAACc0NzW6e3v9vb////RqNiFRpd2LIGkbK7O6/iMXOxvAAAAAXRSTlMAQObYZgAAAONJREFUeAHt2wEJgwAUhOFVsMIqWMEKVrDCKlhhbQdvAMLBGBOfE76/wHcF7iZJkiRJkiRJkq7SUN1beltn8Xg8Ho/PEeOmqRp3lDAej8fjz+JzxFwtm6Zq+aLHprVKGI/H4/H9/P4Rc7UfxuPxeHw//3lEdgiMx+Px+HY+RyR5IIzH4/H4dj5HrFnAl+TxeDweHyOeUcCX5/F4PB6fIxLG4/F4PB6Px+PxeDwej8fj8Xg8Ho/H4/F4PB6Px+PxeDwej8fj8Xg8Hu+dgMfj8fiEG0Y083g8Ho8ffgqPx+Pxf8a/ABh60O9wSmlyAAAAAElFTkSuQmCC');
+    }
+
+    .ingredient.y {
+      width: 52px;
+      content: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJwAAAEUBAMAAAAsAkJ/AAAAHlBMVEUAAACc0NzW6e3v9vb////7+57250H54Wbh7LPO6/jG9Ge7AAAAAXRSTlMAQObYZgAAALJJREFUeAHtzIEFwwAQRuGukBW6QlboCl2hK3SFrNBtywV+jqClufI98MB3kSRJv2yproct1bkcDodLaK1u1dpKFIfD4XA43GdcNpPD4XD36lHl7z2rrcLhcDgcDofD4XA4HA6Hw+G+5/rjcLg/4KKhHA6Hi2ZyOBwu0e2whHA43Llcoq9WQnM4HA7X0YTGcTgcDofD4XA4HA6HwwXUub05HA6HS6KX9BwOh8MdhzuJw+HeFW6QPig7dLAAAAAASUVORK5CYII=');
+    }
+
+    div.main {
+      text-align: center;
+      max-width: 440px;
+    }
+
+    button {
+      margin-top: 6em;
+    }
+    
+    div.warning {
+      padding-top: 2em;
+      font-weight: bold;
+      font-size: 150%;
+    }
+  </style>
+  <script type='text/javascript'>
+    function shuffle(word) {
+      let array = word.split('');
+      let currentIndex = array.length,
+        randomIndex;
+
+      // While there remain elements to shuffle.
+      while (currentIndex != 0) {
+        // Pick a remaining element.
+        randomIndex = Math.floor(Math.random() * currentIndex);
+        currentIndex--;
+
+        // And swap it with the current element.
+        [array[currentIndex], array[randomIndex]] = [
+          array[randomIndex],
+          array[currentIndex]
+        ];
+      }
+
+      return array.join('');
+    }
+
+    function sortw(word) {
+      return word.split('').sort().join('');
+    }
+
+    function makeRecipe() {
+      let drinks = shuffle('rygbp');
+      // first group: 2 of 2 kinds
+      let part1 = drinks.substring(0, 2) + drinks.substring(0, 2);
+      // second group: 2 of remaining 3 kinds
+      let part2 = drinks.substring(2) + drinks.substring(2);
+      // pick 3 from first group, 2 from second group
+      let recipe = shuffle(part1).substring(0, 3) + shuffle(part2).substring(0, 2);
+      return sortw(recipe);
+    }
+
+    function renderRecipe(recipe) {
+      let span = document.getElementById('recipe');
+      while (span.firstChild) {
+        span.removeChild(span.firstChild);
+      }
+      let ingredients = recipe.split('');
+      for (var i = 0; i < ingredients.length; i++) {
+        let ingredient = ingredients[i];
+        let img = document.createElement('img')
+        img.setAttribute('class', 'ingredient ' + ingredient);
+        span.appendChild(img);
+      }
+      if (recipe != 'rgbyp' && !isLegalRecipe(recipe)) {
+        let warning = document.createElement('div');
+        warning.setAttribute('class', 'warning');
+        warning.appendChild(document.createTextNode('Invalid recipe!'));
+        span.appendChild(warning);
+      }
+    }
+    
+    function isLegalRecipe(recipe) {
+      if (typeof(recipe) != 'string') {
+        return false;
+      }
+      let ingredients = recipe.split('');
+      // must have 5 ingredients
+      if (ingredients.length != 5) {
+        return false;
+      }
+      // every ingredient must be valid
+      let counter = { r: 0, g: 0, b: 0, y: 0, p: 0};
+      for (var i = 0; i < ingredients.length; i++) {
+        let ingredient = ingredients[i];
+        if ('rgbyp'.indexOf(ingredient) == -1) {
+          return false;
+        }
+        counter[ingredient] += 1;
+      }
+      // must have 2 of at least one ingredient
+      // can't have more than 2 of any ingredient
+      let counts = Object.values(counter);
+      let max = Math.max(...counts);
+      if (max != 2) {
+        return false;
+      }
+      return true;
+    }
+
+    function newRecipe() {
+      let recipe = makeRecipe();
+      renderRecipe(recipe);
+      history.pushState(null, null, '#' + recipe);
+    }
+
+    window.addEventListener('hashchange', (event) => {
+      let recipe = event.newURL.split('#', 2)[1] || 'rgbyp';
+      renderRecipe(recipe);
+    });
+  </script>
+</head>
+<body onLoad="renderRecipe(location.hash.substring(1) || 'rgbyp')">
+  <div class='main'>
+  <span id='recipe'>
+    <img class='ingredient r' />
+    <img class='ingredient g' />
+    <img class='ingredient b' />
+    <img class='ingredient y' />
+    <img class='ingredient p' />
+  </span>
+    <br/>
+    <button onClick='newRecipe()'>New Recipe</button>
+  </div>
+</body>
+</html>
