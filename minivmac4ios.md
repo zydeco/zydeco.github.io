@@ -107,7 +107,7 @@ the following:
 
 ## Version History
 
-#### 2.5 - 26<sup>th<>/sup> May 2022
+#### 2.5 - 26<sup>th</sup> May 2022
 
 * Update to Mini vMac 37.03 beta
 * Fixed crash when deleting disk images on iPad
